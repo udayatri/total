@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "majestic-bloom-266815",
+  "private_key_id": "5a245b01303da2521886daf8a775cac60871db99",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCk47MUgDXy0sKh\n+6mHG3HJ5x477CK+BEO9JUAf2qGdkq8Xj4XJcIOQwlGCzGPvrqtn7cpPj0xMFHr0\nmR4VyGASN7it+i40F6h5xZoIpMkwdgAcYhjNgsxYCoJ18mH4TUvaDRSGdLoQ5FX4\nYBHWS/SSbcV/6VIupEJivQiuuLTAQF0ydoa4ojX5JVqX2k9t4K5yGGyDik0qqNuV\nAToqVzd00L/538v+sc+e1BZ5J/IiBdeszkDn+3A2VcyUOHkLAvBEfdvmUHaOazH1\nqv7V+SYHAGXeODAPEuHDpuBBL0x87Eh+e8+hXpke6GwR5rzRDen7/AoxO4N3MkdU\n/x4FvFwjAgMBAAECggEAKAjA6jFW5+YUK5AW0R7wubzLsnDa3pfaeooYz6Mdqkx7\nBpVqPkZ7KyKC9+b4PLGEHG+3tylrtO0kDU8/5roH2WR+Cn+7yBoWZbp8c6zOzF1a\nGYoXy43+X0Ht+wUmlErwJ7kVSq/8nS1TUkLBEe7PKt5MHYpg0cI//Ak5mnJuMF8M\nY5yPVwuEKgllbko3ekOR0xelEqjONOguIFtp4Hisgnp3D4bBNbNWOBAeYwxziVxg\n9BN8dBAcnJuLfXonM9u9E6WfOXk90suEuVAD/Y/BGNZZWXiD4WDUD1sEgovcfz72\n+OQS2HuaZA8Q0Y4KvDHlq5HXWjpfn29Z6m9ryZ9wQQKBgQDW2KSTcyqL8w2frErg\nSk/65HFSrnJzU56c6egp8yIf0d/DbxB6nIBjaQtE2vzQWgAUKGD/j6GkPVehOfWX\nZGamD/Qv+pZq7ePwV/wAFBWjI9emwy3e3Op2EbwFzau+V0xIMti/L0xNS+Rkz5pb\nxnIJUfBaZuMKlujesDd7Uix9LQKBgQDEeVaZwulj6tiLC74w5qMrZuNVYxeUX+Hp\nEac/514R7DFQ0FjlEYx8HXxDN0kD091w4SdbvMxWABG7O0fTZW/e32sfIQEafgNW\npXVgnUaCXOz9qRqTtRtVbPHevN8U+5xMG1KPywiYzArFerDUtr7bK6mQcuzXtGnz\nO7uQy1IwjwKBgQCgrgn31Ov/GtoXjw24zRsf8vXl9l3WbrVzeWSO6y2cSqRlT40t\nhhpnPsqUxorJcGYarVBOEae8Y7xD8ksA3LAAhnID6A/TDPOqbsMjc+Hyzv2b1OFb\nijE3+G98j6NgiX2diZmc8szICnhYBQPWm4Xx/nwZwFUROGgVFAmKi5yGSQKBgBJl\n7mcdqm9R2Y9DvT6lCliRHO6tBdM+G1CQ96FzUArLnF6d9AUXXJluxWkh7zNtjon4\ne5AKoPPYs9Bdn786+3vaXhSfKZRKgpOFkPVIJQcmHocuY6+7QOEB/7BE7XrwiNVT\npaqTb62nRcbyU0bICh1J/GnraSRV36oISOspLvwfAoGAXDCsSYDsZxAIH7P3xTiA\n7Jtq+CXkAdTnL+2anmdyysXiCLjuSe/gXTlSwdInRGBAeouElT9DZ4oxljwk5ZlZ\n5twqXkTgzQgnu0q8DY0w9U64MXO+xeuxMTgQTQnQOrcQujPBcGw4wIJcERG5eQUI\n5NbdNXq579zIUaFYg/fISAg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gspreadserviceaccount@majestic-bloom-266815.iam.gserviceaccount.com",
+  "client_id": "113910148713221144126",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gspreadserviceaccount%40majestic-bloom-266815.iam.gserviceaccount.com"
+}

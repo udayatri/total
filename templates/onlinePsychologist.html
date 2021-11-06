@@ -1,0 +1,20 @@
+{% for i in range(0,onlineListners|length) %}
+
+                            <div class="col-lg-3 col-md-6 pt-1" style="margin-top:10px; margin-bottom: 10px;">
+                                <div class="card h-100" >
+                                    <a href="/psychologist/AAA/name }}" style="text-decoration: none;">
+                                    <div class="card-body">
+                                        <img class="img-fouild rounded w-75 mb-3"
+                                            src="static/images/Male_psychologistImg.png"
+                                            alt="Sophie">
+                                        <h3>{{ onlineListners[i] }}</h3>
+                                        <h5 name="{{ onlineListners[i] }}">profile</h5>
+                                        <p>decription</p>
+                                       
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                           
+
+                        {% endfor %}

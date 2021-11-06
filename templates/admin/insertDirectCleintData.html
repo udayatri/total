@@ -1,0 +1,36 @@
+<html>
+
+    <head>
+
+    </head>
+
+
+    <body>
+
+        <form action="insertingDirectClientData" method="POST">
+
+            Name <input type="text" name="name">
+            <br> <br>
+            Whattsapp Number  along with Contact Number <input type="text" name="cnumber">
+            <br> <br>
+            Email <input type="email" name="email">
+            <br> <br>
+
+            country <input type="text" name="country">
+
+            <label for="psychologist">Psychologist</label>
+            <select name="psychologist" id="psychologist">
+                {% for i in range(0,psychoList|length) %}
+                <option value="{{psychoList[i][0]}}">{{psychoList[i][0]}}</option>
+                {% endfor %}
+            </select>
+        
+            <br> <br>
+        
+            <input type="submit">
+
+        </form>
+
+    </body>
+
+</html>

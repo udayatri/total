@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGYJN9NTJL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CGYJN9NTJL');
+  </script>
+
+  <title>
+    Drivekraft - Lending ears across the globe. Free Mental HealthCare Session
+  </title>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description"
+    content="Indian Mental HealthCare StartUp Working on making Mental Health Servies  Affordable for everyone. WE provide Free Mental HealthCare Session across the globe" />
+  <meta name="keywords" content="moodle, Drivekraft Free Online Therapy for Mental HealthCare" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="{{url_for('static', filename='images/logo.png')}}" type="image/x-icon"> 
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/swiper.min.css') }}">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+  <!-- Stylesheet Main -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+  <script src="js/custom.js"></script>
+
+</head>
+<body>
+    <div class="contact-page-short-boxes" style="
+        background: linear-gradient(
+          270deg,
+          rgba(254, 128, 81, 1) 0%,
+          rgba(249, 180, 92, 1) 100%
+        );
+      padding-bottom: 200px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 col-12 col-md-4 mt-5 mt-lg-0">
+          <div class="emergency-box h-100 animate__animated wow animate__fadeInUp"> 
+            <div class="appointment-box1">
+              <form action="/processing" method="POST">
+                <!-- <label for="Timezone">Timezone</label>
+                <input type="text" id="timezone" name="timeZone" placeholder="Timezone..."> -->
+            
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" placeholder="Date" max="{{maxdate}}" min={{mindate}} required>
+            
+                <label for="startTime">Available From Time</label>
+                <input type="time" id="startTime" name="freeTimeFrom" placeholder="Start Time" required>
+
+                <label for="endTime">Available Till Time</label>
+                <input type="time" id="endTime" name="freeTimeTo" placeholder="End Time" required>
+            
+               <!-- <h2 class="d-flex align-items-center">Appointments</h2> -->
+              <div class="mt-4 mt-md-0">
+              
+              <button type="submit" class=" call-btn button d-flex justify-content-center align-items-center" >
+                Submit
+                </button>
+               <!-- <link rel="icon" href="{{url_for('static', filename='images/emergency-call.png')}}" type="image/x-icon">  Book
+                Appointment -->
+               
+            </div>      
+
+
+              </form>
+            </div>
+           
+            <p style="text-align: center" class="animate__animated wow animate__fadeInUp">
+              Click to schedule a fully confidential, secure and free
+              counselling with us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

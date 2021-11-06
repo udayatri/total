@@ -1,0 +1,35 @@
+<html>
+
+    <body>
+
+        <table border="2px solid black">
+            <tr>
+                <td>Id</td>
+                <td>email</td>
+                <td>psychologist</td>
+                <td>date</td>
+                <td>Time</td>
+                <td>PaidOrNot</td>
+            </tr>
+
+            {% for i in range(0,data|length) %}
+
+            <tr>
+                <td>{{ data[i][0] }}</td>
+                <td>{{ data[i][1] }}</td>
+                <td>{{ data[i][3] }}</td>
+                <td>{{ data[i][4] }}</td>
+                <td>{{ data[i][5] }}</td>
+                <td>{{ data[i][6] }}</td>
+
+            </tr>
+
+            {% endfor %}
+           
+
+        </table>
+
+    </body>
+
+
+</html>
